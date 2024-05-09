@@ -10,8 +10,8 @@ use EasySwoole\Crontab\Protocol\Command;
 use EasySwoole\Crontab\Protocol\Pack;
 use EasySwoole\Crontab\Protocol\Response;
 use EasySwoole\Crontab\Protocol\UnixClient;
-use Swoole\Server;
-use Swoole\Table;
+use OpenSwoole\Server;
+use OpenSwoole\Table;
 use EasySwoole\Component\Process\Config as ProcessConfig;
 
 class Crontab

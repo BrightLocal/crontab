@@ -7,7 +7,7 @@ namespace EasySwoole\Crontab;
 use Cron\CronExpression;
 use EasySwoole\Component\Process\AbstractProcess;
 use EasySwoole\Component\Timer;
-use Swoole\Table;
+use OpenSwoole\Table;
 
 class Scheduler extends AbstractProcess
 {

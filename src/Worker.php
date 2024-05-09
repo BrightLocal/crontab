@@ -8,8 +8,8 @@ use EasySwoole\Component\Process\Socket\AbstractUnixProcess;
 use EasySwoole\Crontab\Protocol\Pack;
 use EasySwoole\Crontab\Protocol\Command;
 use EasySwoole\Crontab\Protocol\Response;
-use Swoole\Coroutine\Socket;
-use Swoole\Table;
+use OpenSwoole\Coroutine\Socket;
+use OpenSwoole\Table;
 
 class Worker extends AbstractUnixProcess
 {

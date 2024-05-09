@@ -4,7 +4,7 @@
 namespace EasySwoole\Crontab\Protocol;
 
 
-use Swoole\Coroutine\Client;
+use OpenSwoole\Coroutine\Client;
 
 class UnixClient
 {
