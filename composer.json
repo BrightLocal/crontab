@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "easyswoole/component": "dev-master",
+        "easyswoole/component": "dev-bugfix",
         "ext-openswoole": "*",
         "dragonmantank/cron-expression": "^2.2"
     },
